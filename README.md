@@ -2,7 +2,7 @@
 A SilverStripe module to add HubSpot Tracking Code and manage per SiteConfig (CMS) & Page extension
 
 ## Requirements
-* SilverStripe ~3.2, SiteConfig
+* SilverStripe ^4.0, SiteConfig
 
 ## Installation
 The easiest way is to use [composer](https://getcomposer.org/):
@@ -15,10 +15,10 @@ You need to set the extensions in your config.
 
     SiteConfig:
       extensions:
-        - HubSpotConfigExtender
+        - lerni\HubSpot\Extensions\HubSpotConfigExtender
     Page:
       extensions:
-        - HubSpotRequestExtender
+        - lerni\HubSpot\Extensions\HubSpotRequestExtender
 
 Run `dev/build` either way.
 
