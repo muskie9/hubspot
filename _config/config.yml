@@ -3,7 +3,7 @@ Name: hubspot
 ---
 #SiteConfig:
 #  extensions:
-#    - HubSpotConfigExtender
+#    - lerni\HubSpot\Extensions\HubSpotConfigExtender
 #Page:
 #  extensions:
-#    - HubSpotRequestExtender
+#    - lerni\HubSpot\Extensions\HubSpotRequestExtender

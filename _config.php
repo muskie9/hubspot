@@ -1,2 +1,6 @@
 <?php
-ShortcodeParser::get()->register('HSForm',array('HubSpotRequestExtender','HSFormShortCodeHandler'));
+\SilverStripe\View\Parsers\ShortcodeParser::get()
+    ->register(
+        'HSForm',
+        [lerni\HubSpot\Extensions\HubSpotRequestExtender::class, 'HSFormShortCodeHandler']
+    );
