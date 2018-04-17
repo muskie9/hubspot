@@ -13,7 +13,7 @@ or download and place it in a folder called "hubspot" in your project root.
 ## Config
 You need to set the extensions in your config.
 
-    SiteConfig:
+    SilverStripe\SiteConfig\SiteConfig:
       extensions:
         - lerni\HubSpot\Extensions\HubSpotConfigExtender
     Page:
