@@ -27,8 +27,8 @@ class HubSpotConfigExtender extends DataExtension
     {
         $fields->addFieldToTab(
             "Root.Main",
-            HeaderField::create('HubSpot')
-                ->setTitle('HubSpot')
+            HeaderField::create('HubSpot', 'HubSpot')
+                ->setHeadingLevel(3)
         );
         $fields->addFieldToTab(
             'Root.Main',
